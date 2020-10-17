@@ -23,15 +23,26 @@
     </div>
 
     <div class="status-card" style='outline: 1px dotted black'>
-      <p class='current-month'>Current month: </p>
+      <p class='current-month' id="monthy">Current month: </p>
       <button id='next' onlick="clearInterval(myCounter)">NEXT MONTH</button>
 
     </div>
+
+<script>
+
+    var i = months
+    document.getElementById("monthy").innerHTML += "<br />" + 0
+    for(i=0; i<months.Length; i++)
+    {document.getElementById(+months[i])}
+
+
+      </script>
 
     <div class="countdown" style='outline: 1px dotted red'>
       <p class="counter">Time remaining: </p>
       </div>
 
+<!--
       <script>
 
     var counter = document.getElementById("counter");
@@ -40,6 +51,7 @@
 
 
     </script>
+-->
 
   </body>
 </html>

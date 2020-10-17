@@ -23,10 +23,10 @@ var currentMonth = months[0];
 console.log(months[0]);
 console.log(currentMonth);
 
-//Functions
+Functions
 function gameLoop(){
   $('.current-month').append(currentMonth);
-  //currentMonth = the next one
+  currentMonth = the next one
   
 }
 
