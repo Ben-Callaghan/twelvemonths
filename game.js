@@ -2,6 +2,7 @@
 // change to see what happens
 
 // Vars
+
 var player = {
   name: "",
   discipline: "",
@@ -10,6 +11,12 @@ var player = {
 }
 
 var round = 0;
+
+var months = ["April", "May", "June", "July", "August", "September", "October", "November", "December", "January", "February", "March"];
+
+for (i=0, i<months.length, i++){
+
+}
 
 //Functions
 function gameLoop(){
@@ -23,7 +30,7 @@ function gameLoop(){
 
 //did they get it?
 //y: congrats!
-//n: oh no!
+//n: oh no! we had 9848483 applications, and on this occasion you were unsuccessful. We encourage you to try again next year and hope you'll sign up to our mailing list and follow us on facebook
 
 //Calculate effect of success/failure
 
