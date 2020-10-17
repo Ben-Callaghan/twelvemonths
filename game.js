@@ -1,4 +1,5 @@
 // SETUP
+// change to see what happens
 
 // Vars
 var player = {
