@@ -22,7 +22,6 @@ var months = ["April", "May", "June", "July", "August", "September", "October", 
 var currentMonth = months[0];
 var monthCounter = 0;
 
-Functions
 function gameLoop(){
   $('.current-month').append(currentMonth);
   monthCounter += 1;
