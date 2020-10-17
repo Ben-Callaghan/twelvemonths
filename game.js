@@ -25,13 +25,9 @@ var monthCounter = 0;
 Functions
 function gameLoop(){
   $('.current-month').append(currentMonth);
-<<<<<<< HEAD
-  currentMonth = the next one
-  
-=======
   monthCounter += 1;
   currentMonth = months[monthCounter];
->>>>>>> origin/main
+
 }
 
 
