@@ -20,19 +20,24 @@ var round = 0;
 var months = ["April", "May", "June", "July", "August", "September", "October", "November", "December", "January", "February", "March"];
 
 var currentMonth = months[0];
-console.log(months[0]);
-console.log(currentMonth);
+var monthCounter = 0;
 
 Functions
 function gameLoop(){
   $('.current-month').append(currentMonth);
+<<<<<<< HEAD
   currentMonth = the next one
   
+=======
+  monthCounter += 1;
+  currentMonth = months[monthCounter];
+>>>>>>> origin/main
 }
 
 
 //RUN TIME
 $(document).ready(function(){
+  //run time starts
   console.log('document is ready and game.js loaded correctly')
   console.log(player);
   $('.card_name').append(player.name);
@@ -41,4 +46,5 @@ $(document).ready(function(){
   $('#next').click(function(){
     gameLoop();
   });
+  // run time end
 });
