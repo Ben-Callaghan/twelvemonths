@@ -6,17 +6,24 @@
 var player = {
   name: "",
   discipline: "",
-  location: "",
+//  location: "",
   assets: []
 }
 
 var round = 0;
 
-var months = ["April", "May", "June", "July", "August", "September", "October", "November", "December", "January", "February", "March"];
+//var months = ["April", "May", "June", "July", "August", "September", "October", "November", "December", "January", "February", "March"];
+//
+//for (i=0, i<months.length, i++){
+//
+//}
 
-for (i=0, i<months.length, i++){
-
-}
+// <script>
+//      var seconds = 300;
+//var counter = document.getElementById("counter");
+//var myCounter = setInterval(function(){seconds--; counter.innerHTML = x}, 1000);
+//
+//    </script>
 
 //Functions
 function gameLoop(){
@@ -26,6 +33,7 @@ function gameLoop(){
 
 //show available cards
 //player picks card
+//<button onclick="clearInterval(myCounter)">Apply</button>
 // dice role based on player stats
 
 //did they get it?

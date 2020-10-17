@@ -18,7 +18,7 @@
       enter name:
       <input type="text" id="myInput">
       <button type="button" id="myBtn">confirm</button>
-        <p id="cool"> Hi everyone </p>
+        <p id="cool"> Hi everyone, you are running out of time.</p>
 
     </div>
     <div class="player-card">
@@ -26,5 +26,13 @@
 
       </div>
     </div>
+
+      <script>
+      var seconds = 300;
+var counter = document.getElementById("counter");
+var myCounter = setInterval(function(){seconds--; counter.innerHTML = x}, 1000);
+
+          </script>
+
   </body>
 </html>
