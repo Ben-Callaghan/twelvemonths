@@ -19,3 +19,18 @@
 
 //was that the last round?
 //y: n:
+
+
+
+
+//
+//for (i=0, i<months.length, i++){
+//
+//}
+
+// <script>
+//      var seconds = 300;
+//var counter = document.getElementById("counter");
+//var myCounter = setInterval(function(){seconds--; counter.innerHTML = x}, 1000);
+//
+//    </script>
