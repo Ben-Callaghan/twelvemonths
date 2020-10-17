@@ -20,14 +20,13 @@ var round = 0;
 var months = ["April", "May", "June", "July", "August", "September", "October", "November", "December", "January", "February", "March"];
 
 var currentMonth = months[0];
-console.log(months[0]);
-console.log(currentMonth);
+var monthCounter = 0;
 
 //Functions
 function gameLoop(){
   $('.current-month').append(currentMonth);
-  //currentMonth = the next one
-
+  monthCounter += 1;
+  currentMonth = months[monthCounter];
 }
 
 
