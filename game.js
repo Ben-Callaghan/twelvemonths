@@ -25,7 +25,9 @@ console.log(currentMonth);
 
 //Functions
 function gameLoop(){
-  $('.current-month')
+  $('.current-month').append(currentMonth);
+  //currentMonth = the next one
+  
 }
 
 
@@ -36,5 +38,7 @@ $(document).ready(function(){
   $('.card_name').append(player.name);
 
   // click next to do game loop
-  $('#next').click();
+  $('#next').click(function(){
+    gameLoop();
+  });
 });
