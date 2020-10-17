@@ -24,8 +24,22 @@
 
     <div class="status-card" style='outline: 1px dotted black'>
       <p class='current-month'>Current month: </p>
-      <button id='next'>NEXT MONTH</button>
+      <button id='next' onlick="clearInterval(myCounter)">NEXT MONTH</button>
 
     </div>
+
+    <div class="countdown" style='outline: 1px dotted red'>
+      <p class="counter">Time remaining: </p>
+      </div>
+
+      <script>
+
+    var counter = document.getElementById("counter");
+    var x = 300;
+    var myCounter = setInterval(function(){x--;counter.innerHTML = x},1000);
+
+
+    </script>
+
   </body>
 </html>
