@@ -27,12 +27,13 @@ console.log(currentMonth);
 function gameLoop(){
   $('.current-month').append(currentMonth);
   //currentMonth = the next one
-  
+
 }
 
 
 //RUN TIME
 $(document).ready(function(){
+  //run time starts
   console.log('document is ready and game.js loaded correctly')
   console.log(player);
   $('.card_name').append(player.name);
@@ -41,4 +42,5 @@ $(document).ready(function(){
   $('#next').click(function(){
     gameLoop();
   });
+  // run time end
 });
